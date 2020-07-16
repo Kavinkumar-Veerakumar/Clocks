@@ -13,6 +13,9 @@
 		D915FDD624BFE97C00E283E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D915FDD524BFE97C00E283E9 /* Assets.xcassets */; };
 		D915FDD924BFE97C00E283E9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D915FDD824BFE97C00E283E9 /* Preview Assets.xcassets */; };
 		D915FDDC24BFE97C00E283E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D915FDDA24BFE97C00E283E9 /* LaunchScreen.storyboard */; };
+		D915FDE424BFE9A300E283E9 /* Clock.swift in Sources */ = {isa = PBXBuildFile; fileRef = D915FDE324BFE9A300E283E9 /* Clock.swift */; };
+		D915FDE624BFEA0E00E283E9 /* AnalogClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D915FDE524BFEA0E00E283E9 /* AnalogClockView.swift */; };
+		D915FDE824BFEA5900E283E9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D915FDE724BFEA5900E283E9 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		D915FDD824BFE97C00E283E9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D915FDDB24BFE97C00E283E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D915FDDD24BFE97C00E283E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D915FDE324BFE9A300E283E9 /* Clock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clock.swift; sourceTree = "<group>"; };
+		D915FDE524BFEA0E00E283E9 /* AnalogClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalogClockView.swift; sourceTree = "<group>"; };
+		D915FDE724BFEA5900E283E9 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,9 @@
 		D915FDCE24BFE97900E283E9 /* Clocks */ = {
 			isa = PBXGroup;
 			children = (
+				D915FDE324BFE9A300E283E9 /* Clock.swift */,
+				D915FDE524BFEA0E00E283E9 /* AnalogClockView.swift */,
+				D915FDE724BFEA5900E283E9 /* Constants.swift */,
 				D915FDCF24BFE97900E283E9 /* AppDelegate.swift */,
 				D915FDD124BFE97900E283E9 /* SceneDelegate.swift */,
 				D915FDD324BFE97900E283E9 /* ContentView.swift */,
@@ -147,8 +156,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D915FDD024BFE97900E283E9 /* AppDelegate.swift in Sources */,
+				D915FDE624BFEA0E00E283E9 /* AnalogClockView.swift in Sources */,
 				D915FDD224BFE97900E283E9 /* SceneDelegate.swift in Sources */,
+				D915FDE424BFE9A300E283E9 /* Clock.swift in Sources */,
 				D915FDD424BFE97900E283E9 /* ContentView.swift in Sources */,
+				D915FDE824BFEA5900E283E9 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

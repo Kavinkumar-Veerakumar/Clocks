@@ -9,8 +9,11 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State private var lineWidth = 1.0
+    
     var body: some View {
-        Text("Hello, World!")
+        AnalogClockView(lineWidth: $lineWidth)
     }
 }
 
